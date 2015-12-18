@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Meyta Hitung Luas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Hitung</string>
+    <string name="persegi">Persegi</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="setting">Pilihan</string>
+</resources>

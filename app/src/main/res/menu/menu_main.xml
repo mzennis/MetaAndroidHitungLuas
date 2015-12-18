@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action"
+        android:title="@string/setting"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" >
+
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item android:id="@+id/action_persegi"
+                    android:title="@string/persegi"
+                    android:orderInCategory="100"
+                    android:checked="true"
+                    app:showAsAction="never" />
+
+                <item android:id="@+id/action_segitiga"
+                    android:title="@string/segitiga"
+                    android:orderInCategory="100"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
